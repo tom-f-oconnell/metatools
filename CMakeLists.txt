@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(versionpub)
+project(metatools)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -155,6 +155,7 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
 install(PROGRAMS
   scripts/versionpub.py
+  scripts/snapshot_params.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

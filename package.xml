@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>versionpub</name>
-  <version>0.0.0</version>
-  <description>Store Git version information in ROS parameters, for saving with other parameters relevant to experiments.</description>
+  <name>metatools</name>
+  <version>0.0.1</version>
+  <description>Tools for storing ROS parameters and code version information alongside output data.</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
