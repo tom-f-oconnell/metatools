@@ -47,7 +47,8 @@ for package_name in package_names:
         pkg_path = rospack.get_path(package_name)
     except rospkg.common.ResourceNotFound:
         # TODO how to logerr the stacktrace? traceback module?
-        rospy.logfatal(package_name + ' not found in ' + source_dir)
+        rospy.logfatal('package with name "' + package_name + \
+            '" not found in ' + source_dir)
     
     repo = git.Repo(pkg_path, search_parent_directories=True)
     # this a string?
