@@ -1,0 +1,6 @@
+
+how to avoid duplicating invokations of any of these nodes when nesting launch files?
+-just always have it top level?
+-disable with optional param in each high level launch file that wants to use it?
+
+move snapshot_params back here?

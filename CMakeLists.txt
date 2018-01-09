@@ -155,7 +155,8 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
 install(PROGRAMS
   scripts/versionpub.py
-  scripts/snapshot_params.py
+  # TODO put this back? (it's in multi_tracker now, I think, but doesn't choice want to use it?)
+  #  scripts/snapshot_params.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
