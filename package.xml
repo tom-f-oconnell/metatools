@@ -38,6 +38,7 @@
   <!--   <test_depend>gtest</test_depend> -->
   <!-- TODO remove this dependency? -->
   <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>python-future</run_depend>
   <run_depend>python-gitpython-pip</run_depend>
 
   <!-- TODO how to include dependency for gitpython? here? -->
